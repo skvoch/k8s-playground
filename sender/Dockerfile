@@ -1,4 +1,5 @@
 FROM golang:1.13.8-alpine3.11 AS builder
+ENV GO111MODULE=on
 WORKDIR /sender
 COPY . .
 RUN go build \

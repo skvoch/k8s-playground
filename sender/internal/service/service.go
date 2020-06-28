@@ -1,4 +1,4 @@
-package sender
+package service
 
 import (
 	"github.com/gin-gonic/gin"
